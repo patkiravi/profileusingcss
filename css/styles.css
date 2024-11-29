@@ -1,0 +1,153 @@
+body{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+
+p{
+   color:#5A6C57;
+}
+
+hr{
+    border:dotted #0A97B0 6px ;
+    border-bottom:none;
+    width:15%;
+    margin:40px auto;
+
+}
+
+/* CSS for TOP CONTAINER */
+.top-container{
+    background-color:#80C4E9;
+}
+
+.top-cloud{
+    position:relative;
+    left:350px;
+    top:90px; 
+}
+
+h1{
+    margin:0px;
+    font-size:5rem;
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+    
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#0A97B0;
+}
+
+.bottom-cloud{
+    position: absolute;
+    top:150px;
+    left:150px;  
+}
+
+/* CSS FOR MIDDLE CONTAINER */
+.middle-container{
+    margin:50px auto 0 auto;
+    width:70%;  
+}
+
+.profile{
+    width:70%;
+    margin:0 auto 0 auto;
+}
+
+.profile-img{
+    border-radius: 100%;
+    text-align: center;
+}
+
+.skill-container{
+    margin-top:50px;
+}
+
+.skill-title{
+    background-color:#80C4E9;
+    padding:30px;
+    color:#0A5EB0;
+}
+
+.skill-row{
+    margin:50px 0 100px 0;
+}
+
+.chill-img{
+    width:20%;
+    float: left;
+    margin-right:20px;
+}
+
+.prog-img{
+    width:20%;
+    border-radius: 100%;
+    float:right;
+    margin-left:20px;
+}
+
+.contact-container{
+    background-color:#80C4E9;
+    padding: 20px;
+}
+
+.contact-title{
+    color:#0A5EB0;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    text-shadow: 8px 4px 1px #666666;
+    -webkit-box-shadow: 4px 3px 1px #666666;
+    -moz-box-shadow: 4px 3px 1px #666666;
+    box-shadow: 4px 3px 1px #666666;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 27px;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: red;
+    
+  }
+
+  /* CSS FOR BOTTOM CONTAINER */
+
+.bottom-container{
+    background-color: #80C4E9;
+    margin-top:50px;
+    padding:30px; 
+}
+
+a{
+    margin:20px;
+    text-decoration:none;
+    color:#ffffff;
+    font-size: 1.25rem;
+}
+
+a:hover{
+    color:blue;
+}
+
+.copyright{
+    font-size:0.75rem;
+    color:#8f8f8f;
+    margin-top: 30px;
+}
